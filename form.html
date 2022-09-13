@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Форма</h1>
+        </header>
+           <form ACTION="/" METHOD="POST">
+               <label>
+                   Введите имя:
+                   <br>
+                   <input name="form-name" placeholder="Имя">
+               </label>
+               <br><br>
+               <label>
+                   Email:
+                   <br>
+                   <input name="form-email" type="email" placeholder="Введите вашу почту">
+               </label>
+               <br><br>
+               <label>
+                   Дата рождения:
+                   <br>
+                   <input name="form-date" value="2001-01-01" type="date">
+               </label>
+               <br><br>
+               <label>
+                   Пол:
+                   <br>
+                   <input name="form-gender" type="radio" value="Значение 1">
+                   Мужской
+               </label>
+               <label>
+                   <input name="form-gender" type="radio" value="Значение 2">
+                   Женский
+               </label>
+               <br><br>
+               <label>
+                   Количество конечностей:
+                   <br>
+                   <input name="form-limbs" type="radio" value="Значение 1">
+                   1
+               </label>
+               <label>
+                   <input name="form-limbs" type="radio" value="Значение 2">
+                   2
+               </label>
+               <label>
+                   <input name="form-limbs" type="radio" value="Значение 3">
+                   3
+               </label>
+               <label>
+                   <input name="form-limbs" type="radio" value="Значение 4">
+                   4
+               </label>
+               <label>
+                   <input name="form-limbs" type="radio" value="Значение 5">
+                   5 и более
+               </label>
+               <label>
+                   <br><br>
+                   Сверхспособности:
+                   <br>
+                   <select name="form-abilities">
+                       <option value="Значение 1">Бессмертие</option>
+                       <option value="Значение 2">Прохождение сквозь стены</option>
+                       <option value="Значение 3">Левитация</option>
+                   </select>
+               </label>
+               <br><br>
+               <label>
+                   Биография:
+                   <br>
+                   <textarea name="form-bio" placeholder="Расскажите о себе"></textarea>
+               </label>
+               <br><br>
+               <label>
+                       <input name="form-checkbox" checked="checked" type="checkbox">
+                       С контрактом ознакомлен(а)
+                   </label>
+                   <br><br>
+               </label>
+               <label>
+                       <input type="submit" value="Отправить">
+                </label>
+            </form>
+            <a href="index.html">На главную</a>
+</body>
+</html>
